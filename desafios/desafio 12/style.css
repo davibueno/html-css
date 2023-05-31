@@ -1,0 +1,60 @@
+@charset  "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Kalam & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+h1{
+   font-size: 3em;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: 100;
+}
+
+a{
+    color: white;
+}
+.normal{
+background-color: white;
+padding-bottom: 100px;
+padding-top: 100px;
+ }
+ .imagem-joana{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+ }
+ .imagem-livro{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.39);
+
+ }
+ footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+ }
+ .paragrafo-imagem{
+    background-color: rgba(128, 128, 128, 0.39);
+   
+    color:white;
+    padding: 10px;
+    
+ }
