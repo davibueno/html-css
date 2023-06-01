@@ -1,81 +1,50 @@
 @charset  "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-  
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+
+   
 }
 body{
- height: 98vh
+   background-color: rgb(255, 255, 255);
+   width: 100%;
+   
 }
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+:root{
+   --fonte-titulo: 'Passion one',cursiva;
+   --fonte-cordel: 'Sriracha', cursive;
+   --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
 header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-bottom: 100px;
-    
-    
+   background-color:black;
+   padding-bottom: 50px;
+   margin: 0;
+   
 }
-header >h1{
-   font-family:'Passion One',cursiva;
-   padding-top: 50px;
-   font-weight: bold;
-   font-size: 136px;
-
-  
+h1{
+   text-align: center;
+   color: white;
+   font-family: var(--fonte-titulo);
+   font-variant: small-caps;
+   font-size: 100px;
+   padding-top: 23px;
 }
-
+header >p{
+   color: white;
+   text-align: center;
+}
 a{
-    color: white;
-    
+   color: white;
 }
-.normal{
-background-color: white;
-padding-bottom: 100px;
-padding-top: 100px;
-
-
- }
- .normal > p{
-   font-family: 'Sriracha',cursive;
-   padding-left: 20px;
-   font-size: 47px;
    
- }
- .imagem-joana{
-    background-image: url(imagens/background001.jpg);
-    background-position: right center;
-    background-attachment: fixed;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
- }
- .imagem-livro{
-    background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
-
- }
- footer{
-    background-color: black;
-    color:white;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
- }
- .paragrafo-imagem{
-    background-color: rgba(0, 0, 0, 0.39);
-   
-    color:white;
-    padding-left: 20px;
-    font-family: 'Sriracha', cursive;
-    font-size: 47px;
-    
- }
+.imagem-joana{
+   background-image: url(imagens/background001.jpg);
+   background-position: center right;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
