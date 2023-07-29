@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{margin: 0;}
+.div{
+    display: flex;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    margin: auto;
+}
+  
+ 
+    
+.imagem1{
+ align-self: flex-start;
+ margin-right: -50px;
+ margin-bottom: 50px;
+}
+.imagem2{
+    align-self: flex-end;
+    margin-left: -20px;
+}
+.imagem1:hover{
+  margin-right: 50px;
+  margin-bottom: 50px;
+height: 50vh;
+}
