@@ -13,8 +13,8 @@
 <body>
   <h1>Meu primeiro formulário</h1>
   <form action="cadastro.php" method="POST" autocomplete="off">
-    <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"> </p>
-    <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+    <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" size="10 " placeholder="nome do usuário" autocomplete="username"> </p>
+    <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" required minlength="3" maxlength="8" autocomplete="current-password"></p>
     <p><input type="submit" value="Enviar"></p>
   </form>  
 </body>
