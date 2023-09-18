@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+header{
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+article{
+    background-color: lightgray;
+    width: 400px;
+    display: block;
+    margin: auto;
+}
