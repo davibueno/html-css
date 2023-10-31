@@ -9,9 +9,10 @@ body{
     height: 300px;
     display:flex;
     /*alinhamento horizontal*/
-    justify-content: center;
+    justify-content: space-between;
    /* alinhamento vertical*/
    align-items: center ;
+   flex-wrap: wrap;
 
 }
 .item{
@@ -21,6 +22,33 @@ body{
     height: 50px;
     width: 50px;
 }
+.box{
+    background-color: wheat;
+    border: 2px solid blue;
+    height: 50px;
+    flex-basis: 40px;
+    
+}
+/*#item1{
+   flex-basis: 100px;
+}
+#item2{
+   
+    flex-grow: 2;
+    
+}
+#item3{
+ flex-shrink: 2;
+}
 p{
     text-align: center;
+}*/
+#item3{
+    order: 1;
+}
+#item2{
+    order: 2;
+}
+#item1{
+    order:3 ;
 }
