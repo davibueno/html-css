@@ -1,0 +1,26 @@
+body{
+
+}
+#container{
+    background-color: gray;
+    border: 2px solid red;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    display:flex;
+    /*alinhamento horizontal*/
+    justify-content: center;
+   /* alinhamento vertical*/
+   align-items: center ;
+
+}
+.item{
+
+    background-color: wheat;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+}
+p{
+    text-align: center;
+}
